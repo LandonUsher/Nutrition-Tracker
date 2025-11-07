@@ -1,2 +1,2 @@
-# QuickPlays
-QuickPlays is an automatic play/playbook creator for Foorball
+# Nutrition Tracker
+Nutrition Tracker in a python program designed to allow people to see how much of their nutrition/macros they are intaking every day
