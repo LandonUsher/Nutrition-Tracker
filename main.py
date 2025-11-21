@@ -1,23 +1,23 @@
-class WorkoutManager:
+class NutritionTracker:
     def __init__(self):
-        self.workouts = []
+        self.Nutrition = []
 
-    def add_workout(self, name, date, duration, calories):
-        workout = {
-            'name': name,
-            'date': date,
-            'duration': duration,
+    def add_nutrition(foodname, time, protein, calories):
+        nutrition = {
+            'foodname': food_name,
+            'time': time,
+            'protein': protein,
             'calories': calories
         }
-        self.workouts.append(workout)
-        print(f"Added workout: {name} on {date} for {duration} minutes, burning {calories} calories.")
+        self.nutrition.append(nutrition)
+        print(f"Added nutrition: {foodname} on {time} with {protein} grams of protein, including {calories} calories.")
 
-    def view_workouts(self):
-        if not self.workouts:
-            print("No workouts to display.")
+    def view_nutrition(self):
+        if not self.nutrition:
+            print("No nutrition to display.")
             return
 
-        for i, workout in enumerate(self.workouts, 1):
+        for i, eat in enumerate(self.nutrition, 1):
             print(f"{i}. {workout['name']} on {workout['date']} for {workout['duration']} minutes, burning {workout['calories']} calories.")
 
     def delete_workout(self, index):
