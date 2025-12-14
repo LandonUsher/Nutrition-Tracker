@@ -15,4 +15,4 @@
 - [x] Turn into D2L
 - FINAL
 - [X] Final Update/presentaion PP
-- [ ] Present
+- [X] Present
